@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#fiz uma alteracao aki ze
 while true; do
 
 nome(){
