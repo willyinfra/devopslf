@@ -1,22 +1,15 @@
 #!/bin/bash
 #fiz uma alteracao aki ze
 while true; do
-
 nome(){
 	echo "Digite  o nome da maquina"
 	read NOME
 }
-
 nome
-
-
-
 NEWNAME=$(echo $NOME |tr A-Z a-z)
-
 if [ "$NEWNAME" = "$(hostname)" ]; then
 	echo " O Hostanme já e $NOME !"
 else
 	hostnamectl set-hostname $NEWNAME
 fi
-
 done
