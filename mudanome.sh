@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#structure  basic
 while true; do
 
 	echo "Digite 's' para continuar ou 'q' para sair"
